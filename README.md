@@ -7,4 +7,4 @@ This repository provides the different code files used to analyse data from the 
 - FUEL sensors installed on the firewood and charcoal fuel baskets to measure fuel consumption
 - HAPEx sensors installed in the kitchen to measure prticulate matter concentration
 
-Data from the stoves was preprocessed...
+Data from different collections was stitched together so that all time periods for a particular sensor could be plotted from the same file. Code for each of the different sensors allows for
