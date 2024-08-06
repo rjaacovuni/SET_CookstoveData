@@ -7,7 +7,7 @@ This repository provides the different code files used to analyse data from the 
 - FUEL sensors installed on the firewood and charcoal fuel baskets to measure fuel consumption
 - HAPEx sensors installed in the kitchen to measure prticulate matter concentration
 
-Data from different collections for each sensor was stitched together in one file. Data from the fuel consumption and air quality sensors are pre-filtered. Raw and preprocessed data files are available via this link [..........]. The date range to be analysed can be specified in the code by the user. The model iterates through all the sensors in a for loop and the results are copied into an Excel file. For each type of sensor, the sensor file name can be updated. The file path where the preprocessed data files are located is specified. The file names in the code are checked to see they match the Excel file names.
+Data from different collections for each sensor was stitched together in one file. Data from the fuel consumption and air quality sensors are pre-filtered. Raw and preprocessed data files are available via this link https://doi.org/10.5281/zenodo.13192469. The date range to be analysed can be specified in the code by the user. The model iterates through all the sensors in a for loop and the results are copied into an Excel file. For each type of sensor, the sensor file name can be updated. The file path where the preprocessed data files are located is specified. The file names in the code are checked to see they match the Excel file names.
 
 infrared_EXACT.py and thermocouple_EXACTv2.py
 1. Parameters for the cooking event algorithm and the start and end date are specified in the 'cookingevents' function.
