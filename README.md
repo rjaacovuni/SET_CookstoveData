@@ -16,7 +16,7 @@ infrared_EXACT.py and thermocouple_EXACTv2.py
 
 fuelconsumption_FUEL.py
 1. Start and end date are specified in the 'fuel_consumption' function.
-2. If data values drops below -5 kg then the data is cut from that point onwards.
+2. If data values drops below -5kg then the data is cut from that point onwards.
 3. Fuel consumption is only considered if the change is weight between subsequent data points is 25g or more.
 4. Parameters reported are the average, maximum and minimum fuel consumption per day.
 
